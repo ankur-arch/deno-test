@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@prisma/extension-accelerate": "^1.2.2",
+    "dotenv-cli": "^8.0.0"
+  }
+}
