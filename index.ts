@@ -20,6 +20,7 @@ async function handler(request: Request) {
       },
     },
   });
+  console.log("Hello");
   const body = JSON.stringify(log, null, 2);
   return new Response(body, {
     headers: { "content-type": "application/json; charset=utf-8" },
